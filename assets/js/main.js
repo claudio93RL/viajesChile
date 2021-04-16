@@ -8,4 +8,8 @@ $(function(){
             $("#menu").removeClass("barra-scroll");
         }
     })
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+      
 })
