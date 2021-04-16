@@ -1,6 +1,30 @@
 html {
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+body {
+  background-color: #000000;
+}
+
+
+.header {
+  background-image: url('../img/carousel1.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  width: 100%;
+  height: 80vh;
+  background-color: transparent;
+}
+
+.header .navbar {
+  background-color: transparent !important;
+}
+
+.header-svg {
+  width: 3rem;
 }
