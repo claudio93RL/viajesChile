@@ -11,5 +11,18 @@ $(function(){
     $(function () {
         $('[data-toggle="tooltip"]').tooltip()
       })
+
+      var scroll = new SmoothScroll('a[href*="#menu"]',{  
+        speed: 3000,
+      });
+      var scroll = new SmoothScroll('a[href*="#quienes"]',{
+        speed: 3000
+      });
+      var scroll = new SmoothScroll('a[href*="#destacado"]',{
+        speed: 3000
+      });
+      var scroll = new SmoothScroll('a[href*="#contacto"]',{
+        speed: 3000
+      });
       
 })
