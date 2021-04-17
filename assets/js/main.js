@@ -13,7 +13,7 @@ $(function(){
       })
 
       var scroll = new SmoothScroll('a[href*="#menu"]',{  
-        speed: 3000,
+        speed: 300,
       });
       var scroll = new SmoothScroll('a[href*="#quienes"]',{
         speed: 3000
