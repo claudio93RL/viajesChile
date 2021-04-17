@@ -10,7 +10,10 @@ body {
   background-color: #000000;
 }
 
-
+.enlace a{
+  color: #fff;
+  text-decoration: none;
+}
 .img-1, .img-2, .img-3 {
   background-repeat: no-repeat;
   background-size:cover;
